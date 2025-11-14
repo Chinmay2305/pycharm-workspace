@@ -1,0 +1,2 @@
+import seleniumbase
+print(seleniumbase.__version__)
