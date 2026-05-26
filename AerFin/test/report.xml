@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="6" time="71.054" timestamp="2024-11-11T10:09:26.085425+05:30" hostname="DESKTOP-VH3AO9T"><testcase classname="Main.TestForgotPassword" name="test_forgot_password" time="7.909" /><testcase classname="Main.TestLogin" name="test_user_login" time="6.051" /><testcase classname="Main.TestAddRole" name="test_add_role" time="11.342"><failure message="seleniumbase.common.exceptions.NoSuchElementException: Message: &#10; Element {//div/div/div/div/ul/a[7]} was not present after 7 seconds!">self = &lt;components.add_role.TestAddRole testMethod=test_add_role&gt;
+
+    def test_add_role(self):
+&gt;       self.click(Config.settings)
+
+..\components\add_role.py:8: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\.venv\Lib\site-packages\seleniumbase\fixtures\base_case.py:417: in click
+    element = page_actions.wait_for_element_visible(
+..\.venv\Lib\site-packages\seleniumbase\fixtures\page_actions.py:514: in wait_for_element_visible
+    timeout_exception(NoSuchElementException, message)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+exception = &lt;class 'selenium.common.exceptions.NoSuchElementException'&gt;, message = 'Element {//div/div/div/div/ul/a[7]} was not present after 7 seconds!'
+
+    def timeout_exception(exception, message):
+        exc, msg = shared_utils.format_exc(exception, message)
+&gt;       raise exc(msg)
+E       seleniumbase.common.exceptions.NoSuchElementException: Message: 
+E        Element {//div/div/div/div/ul/a[7]} was not present after 7 seconds!
+
+..\.venv\Lib\site-packages\seleniumbase\fixtures\page_actions.py:267: NoSuchElementException</failure></testcase><testcase classname="Main.Main" name="test_add_role" time="11.323"><failure message="seleniumbase.common.exceptions.NoSuchElementException: Message: &#10; Element {//div/div/div/div/ul/a[7]} was not present after 7 seconds!">self = &lt;test.Main.Main testMethod=test_add_role&gt;
+
+    def test_add_role(self):
+&gt;       self.click(Config.settings)
+
+..\components\add_role.py:8: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\.venv\Lib\site-packages\seleniumbase\fixtures\base_case.py:417: in click
+    element = page_actions.wait_for_element_visible(
+..\.venv\Lib\site-packages\seleniumbase\fixtures\page_actions.py:514: in wait_for_element_visible
+    timeout_exception(NoSuchElementException, message)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+exception = &lt;class 'selenium.common.exceptions.NoSuchElementException'&gt;, message = 'Element {//div/div/div/div/ul/a[7]} was not present after 7 seconds!'
+
+    def timeout_exception(exception, message):
+        exc, msg = shared_utils.format_exc(exception, message)
+&gt;       raise exc(msg)
+E       seleniumbase.common.exceptions.NoSuchElementException: Message: 
+E        Element {//div/div/div/div/ul/a[7]} was not present after 7 seconds!
+
+..\.venv\Lib\site-packages\seleniumbase\fixtures\page_actions.py:267: NoSuchElementException</failure></testcase><testcase classname="Main.Main" name="test_run_all" time="20.638" /><testcase classname="Main.Main" name="test_user_login" time="9.221" /></testsuite></testsuites>

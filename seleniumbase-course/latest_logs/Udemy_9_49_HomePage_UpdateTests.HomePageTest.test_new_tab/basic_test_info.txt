@@ -1,0 +1,30 @@
+Udemy_9_49_HomePage_UpdateTests.py::HomePageTest::test_new_tab
+--------------------------------------------------------------------
+Last Page: https://www.sdetunicorns.com/
+ Duration: 11.92s
+  Browser: Chrome 147.0.7727.103
+   Driver: chromedriver 147.0.7727.117
+Timestamp: 1777021827  (Unix Timestamp)
+     Date: Friday, 24 April 2026
+     Time: 2:40:27 PM  (India Standard Time, UTC+05:30)
+--------------------------------------------------------------------
+Traceback:
+  File "C:\Users\DELL\Downloads\Softwares\pycharm-workspace\seleniumbase-course\Udemy_9_49_HomePage_UpdateTests.py", line 39, in test_new_tab
+    self.assert_title_contains('Master Software Testing')
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Downloads\Softwares\pycharm-workspace\.venv\Lib\site-packages\seleniumbase\fixtures\base_case.py", line 7889, in assert_title_contains
+    self.assertIn(
+    ~~~~~~~~~~~~~^
+        expected, actual, error % (expected, actual)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 1174, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\Downloads\Softwares\pycharm-workspace\.venv\Lib\site-packages\seleniumbase\fixtures\base_case.py", line 8648, in fail
+    super().fail(msg)
+    ~~~~~~~~~~~~^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 732, in fail
+    raise self.failureException(msg)
+Exception: 'Master Software Testing' not found in 'Learn Test Automation | Playwright, Selenium & API Testing Courses' : Expected title substring [Master Software Testing] does not appear in the actual page title [Learn Test Automation | Playwright, Selenium & API Testing Courses]!

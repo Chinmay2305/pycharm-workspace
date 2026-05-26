@@ -1,0 +1,15 @@
+Udemy_9_49_HomePage_UpdateTests.py::HomePageTest::test_search_flow
+--------------------------------------------------------------------
+Last Page: data:,
+ Duration: 0.22s
+  Browser: Chrome 147.0.7727.103
+   Driver: chromedriver 147.0.7727.117
+Timestamp: 1777021839  (Unix Timestamp)
+     Date: Friday, 24 April 2026
+     Time: 2:40:39 PM  (India Standard Time, UTC+05:30)
+--------------------------------------------------------------------
+Traceback:
+  File "C:\Users\DELL\Downloads\Softwares\pycharm-workspace\seleniumbase-course\Udemy_9_49_HomePage_UpdateTests.py", line 16, in test_search_flow
+    homepage.search_input('Lenovo')
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+Exception: 'str' object is not callable
